@@ -1,0 +1,16 @@
+git init
+ssh-add
+cp ~/.profile ~/Desktop/Proyecto/profile
+ls
+git status
+git commit -m "Mi primer commit"
+git remote add origin git@github.com:scaag92/PRG_VisualStudioAspNet.git
+git push -u origin master
+ls
+ls -al
+git remote -v
+git push origin master
+ls
+git add .
+git commit -m 'initial commit'
+git push origin master
